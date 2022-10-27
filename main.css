@@ -68,26 +68,27 @@ h1{
     padding: 20px;
     text-align: justify;
   }
-  .doctors-episodes{
+  /*.doctors-episodes{
     background-image: url(/img/fondoluminoso.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
   }
    
-.present-episodes{
+/*.present-episodes{
     color:rgb(0, 0, 0);
     font-size: large;
     padding: 10px;
     text-align: left;
 }
-
-  .doctors-episodes{
+*/
+  /*.doctors-episodes{
     color:rgb(224, 210, 210);
     font-size: large;
     padding: 20px;
     text-align: justify;
   }
+  */
   .p-1-guide{
     color:black;
     font-size: large;
@@ -231,4 +232,17 @@ background-color: grey;
     border: 1px solid;
     text-align: left;
     background-color: grey;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(160, 55, 55);
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
