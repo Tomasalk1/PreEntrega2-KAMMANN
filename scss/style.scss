@@ -1,0 +1,438 @@
+$color_1: white;
+$color_2: black;
+$color_3: #ffffff;
+$color_4: rgba(255,255,255,1);
+$font-family_1: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+$background-color_1: green;
+$background-color_2: rgb(160, 55, 55);
+$background-color_3: rgb(160,55,55);
+$background-color_4: #333;
+$background-color_5: #ddd;
+$background-color_6: grey;
+$background-color_7: rgba(255, 255, 255, 0.8);
+
+/*.doctors-episodes{
+    background-image: url(/img/fondoluminoso.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+  }
+   
+/*.present-episodes{
+    color:rgb(0, 0, 0);
+    font-size: large;
+    padding: 10px;
+    text-align: left;
+}
+*/
+/*.doctors-episodes{
+    color:rgb(224, 210, 210);
+    font-size: large;
+    padding: 20px;
+    text-align: justify;
+  }
+  */
+.header {
+	padding: 30px;
+	text-align: center;
+	background-color: $background-color_1;
+	color: $color_1;
+	h1 {
+		font-size: 50px;
+	}
+	h5 {
+		font-size: 50px;
+	}
+}
+.introduccion {
+	background-color: $background-color_2;
+	p {
+		color: $color_2;
+		font-size: large;
+		padding: 20px;
+		text-align: justify;
+	}
+}
+.lista-guide {
+	background-color: $background-color_3;
+}
+.referenceToNav {
+	background-image: url(/img/estrellas.jfif);
+	color: $color_1;
+}
+h5 {
+	color: $color_1;
+}
+.navbar {
+	overflow: hidden;
+	background-color: $background-color_4;
+	a {
+		float: left;
+		display: block;
+		color: $color_1;
+		text-align: center;
+		padding: 14px 20px;
+		text-decoration: none;
+		&:hover {
+			background-color: $background-color_5;
+			color: $color_2;
+		}
+	}
+	a.right {
+		float: right;
+	}
+}
+h1 {
+	color: $color_1;
+}
+h2 {
+	font-size: 25px;
+}
+h3 {
+	font-size: 25px;
+}
+h4 {
+	font-size: 25px;
+}
+.p-1-guide {
+	color: $color_2;
+	font-size: large;
+	padding: 20px;
+	text-align: justify;
+}
+.p-2-guide {
+	color: $color_2;
+	font-size: large;
+	padding: 20px;
+	text-align: justify;
+}
+.p-3-guide {
+	color: $color_2;
+	font-size: large;
+	padding: 30px;
+	text-align: justify;
+}
+.img-column-1-body {
+	height: auto;
+	width: 290px;
+}
+.img-column-1-text {
+	font-family: $font-family_1;
+	color: $color_3;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+	background: #889ccf;
+	margin: 0 0 25px;
+	overflow: hidden;
+	padding: 20px;
+	border-radius: 35px 0px 35px 0px;
+	-moz-border-radius: 35px 0px 35px 0px;
+	-webkit-border-radius: 35px 0px 35px 0px;
+	border: 2px solid #5878ca;
+	text-overflow: ellipsis;
+}
+.img-column-2-text {
+	font-family: $font-family_1;
+	color: $color_3;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+	background: #889ccf;
+	margin: 0 0 25px;
+	overflow: hidden;
+	padding: 20px;
+	border-radius: 35px 0px 35px 0px;
+	-moz-border-radius: 35px 0px 35px 0px;
+	-webkit-border-radius: 35px 0px 35px 0px;
+	border: 2px solid #5878ca;
+	text-overflow: ellipsis;
+}
+.img-column-3-text {
+	font-family: $font-family_1;
+	color: $color_3;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+	background: #889ccf;
+	margin: 0 0 25px;
+	overflow: hidden;
+	padding: 20px;
+	border-radius: 35px 0px 35px 0px;
+	-moz-border-radius: 35px 0px 35px 0px;
+	-webkit-border-radius: 35px 0px 35px 0px;
+	border: 2px solid #5878ca;
+	text-overflow: ellipsis;
+}
+.origin-column-text {
+	font-family: $font-family_1;
+	color: $color_3;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+	background: #889ccf;
+	margin: 0 0 25px;
+	overflow: hidden;
+	padding: 20px;
+	border-radius: 35px 0px 35px 0px;
+	-moz-border-radius: 35px 0px 35px 0px;
+	-webkit-border-radius: 35px 0px 35px 0px;
+	border: 2px solid #5878ca;
+	text-overflow: ellipsis;
+}
+.index_principal {
+	height: 300px;
+	width: 290px;
+}
+.index_doctors {
+	height: 310px;
+	width: 300px;
+}
+.index_episodes {
+	height: auto;
+	width: auto;
+}
+.column-3 {
+	width: 300px;
+	height: 300px;
+	margin: 60px;
+	float: left;
+}
+.column-2 {
+	width: 300px;
+	height: 300px;
+	margin: 60px;
+	float: left;
+}
+.column-1 {
+	width: 300px;
+	height: 300px;
+	margin: 60px;
+	float: left;
+}
+.old-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.Origin-text {
+	border: 5px solid #FFFF00;
+	text-align: center;
+	background-color: $background-color_6;
+}
+.lista-episodios {
+	color: $color_2;
+	font-size: large;
+	padding: 30px;
+	text-align: justify;
+	background-color: $background-color_2;
+}
+.meet-the-doctors {
+	border: 1px solid;
+	text-align: left;
+	background-color: $background-color_6;
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-color: $background-color_2;
+	padding: 10px;
+}
+.grid-item {
+	background-color: $background-color_7;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+p {
+	animation-duration: 3s;
+	animation-name: slidein;
+}
+a.btn-drwho {
+	position: relative;
+	display: block;
+	padding: 25px 10px;
+	border-radius: 6px;
+	text-align: center;
+	font-weight: bold;
+	max-width: 320px;
+	height: 65px;
+	margin-bottom: 60px;
+	overflow: hidden;
+	color: $color_4;
+	cursor: pointer;
+	letter-spacing: 2px;
+	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
+	text-decoration: none;
+	transition: all ease 0.5s;
+	background: #10B87B;
+	&:after {
+		width: 80px;
+		height: 200px;
+		content: '';
+		display: block;
+		background: rgba(255,255,255,0.5);
+		transform: rotate(45deg);
+		top: -60px;
+		position: absolute;
+		transition: none;
+		right: -45%;
+		cursor: pointer;
+	}
+	&:before {
+		width: 80px;
+		height: 200px;
+		content: '';
+		display: block;
+		background: rgba(255,255,255,0.5);
+		transform: rotate(45deg);
+		top: -60px;
+		position: absolute;
+		transition: none;
+		right: -45%;
+		cursor: pointer;
+		left: -48%;
+	}
+	&:hover {
+		text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+		background: #12C987;
+		&:after {
+			transform: rotate(45deg), scaleX(130%);
+			background: rgba(255,255,255,0.1);
+			transition: all ease 0.5s;
+			right: 130%;
+		}
+		&:before {
+			transform: rotate(45deg), scaleX(130%);
+			background: rgba(255,255,255,0.1);
+			transition: all ease 0.5s;
+			left: 130%;
+		}
+	}
+}
+a.btn-history {
+	position: relative;
+	display: block;
+	padding: 25px 10px;
+	border-radius: 6px;
+	text-align: center;
+	font-weight: bold;
+	max-width: 320px;
+	height: 65px;
+	margin-bottom: 60px;
+	overflow: hidden;
+	color: $color_4;
+	cursor: pointer;
+	letter-spacing: 2px;
+	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
+	text-decoration: none;
+	transition: all ease 0.5s;
+	background: #10B87B;
+	&:after {
+		width: 80px;
+		height: 200px;
+		content: '';
+		display: block;
+		background: rgba(255,255,255,0.5);
+		transform: rotate(45deg);
+		top: -60px;
+		position: absolute;
+		transition: none;
+		right: -45%;
+		cursor: pointer;
+	}
+	&:before {
+		width: 80px;
+		height: 200px;
+		content: '';
+		display: block;
+		background: rgba(255,255,255,0.5);
+		transform: rotate(45deg);
+		top: -60px;
+		position: absolute;
+		transition: none;
+		right: -45%;
+		cursor: pointer;
+		left: -48%;
+	}
+	&:hover {
+		text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+		background: #12C987;
+		&:after {
+			transform: rotate(45deg), scaleX(130%);
+			background: rgba(255,255,255,0.1);
+			transition: all ease 0.5s;
+			right: 130%;
+		}
+		&:before {
+			transform: rotate(45deg), scaleX(130%);
+			background: rgba(255,255,255,0.1);
+			transition: all ease 0.5s;
+			left: 130%;
+		}
+	}
+}
+a.btn-season {
+	position: relative;
+	display: block;
+	padding: 25px 10px;
+	border-radius: 6px;
+	text-align: center;
+	font-weight: bold;
+	max-width: 320px;
+	height: 65px;
+	margin-bottom: 60px;
+	overflow: hidden;
+	color: $color_4;
+	cursor: pointer;
+	letter-spacing: 2px;
+	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
+	text-decoration: none;
+	transition: all ease 0.5s;
+	background: #10B87B;
+	&:after {
+		width: 80px;
+		height: 200px;
+		content: '';
+		display: block;
+		background: rgba(255,255,255,0.5);
+		transform: rotate(45deg);
+		top: -60px;
+		position: absolute;
+		transition: none;
+		right: -45%;
+		cursor: pointer;
+	}
+	&:before {
+		width: 80px;
+		height: 200px;
+		content: '';
+		display: block;
+		background: rgba(255,255,255,0.5);
+		transform: rotate(45deg);
+		top: -60px;
+		position: absolute;
+		transition: none;
+		right: -45%;
+		cursor: pointer;
+		left: -48%;
+	}
+	&:hover {
+		text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+		background: #12C987;
+		&:after {
+			transform: rotate(45deg), scaleX(130%);
+			background: rgba(255,255,255,0.1);
+			transition: all ease 0.5s;
+			right: 130%;
+		}
+		&:before {
+			transform: rotate(45deg), scaleX(130%);
+			background: rgba(255,255,255,0.1);
+			transition: all ease 0.5s;
+			left: 130%;
+		}
+	}
+}
